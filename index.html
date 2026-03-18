@@ -23,7 +23,7 @@
       </div>
       <div class="pages">
         <div>
-          <ul class="flex gap-5 text-gray-600 font-medium">
+          <ul class="hidden md:flex gap-5 text-gray-600 font-medium">
             <li><a href="#" class="hover:text-blue-500">Home</a></li>
             <li><a href="#" class="hover:text-blue-500">Services</a></li>
             <li><a href="#" class="hover:text-blue-500">Our Work</a></li>
@@ -94,138 +94,310 @@
   <!-- End Main Section -->
   <!--  Second Section -->
   <section>
-    <div class="flex flex-col justify-between bg-yellow-200">
-    <div class="bg-slate-500">
-      <h1 class="text-center font-bold text-3xl mt-5 mb-2">
-        Our Integrated Services
-      </h1>
-      <h4 class="text-center text-xl">
-        We offer a comprehensive range of digital solutions to grow your
-        business.
-      </h4>
-      <hr class="w-[100px] h-[4px] bg-blue-500 block m-auto mt-3" />
-    </div>
+    <div class="flex flex-col justify-between">
+      <div>
+        <h1 class="text-center font-bold text-3xl mt-5 mb-2">
+          Our Integrated Services
+        </h1>
+        <h4 class="text-center text-xl">
+          We offer a comprehensive range of digital solutions to grow your
+          business.
+        </h4>
+        <hr class="w-[100px] h-[4px] bg-blue-500 block m-auto mt-3" />
+      </div>
 
-    <div class="flex flex-col md:flex-row gap-2 container m-auto min-h-screen justify-center">
-      <div
-        class="h-[100%] mt-10 w-full md:w-[30%] px-5 py-3 grid grid-rows-[20fr_20fr_35fr_25fr] gap-4 border border-separate rounded-lg hover:border-blue-400 group transition-all duration-300 border-1 shadow-black shadow-sm">
-        <p class="">
-          <i
-            class="fas fa-chart-line text-5xl leading-10 text-black p-4 rounded-lg w-15 inline-block bg-blue-200 group-hover:bg-blue-500"></i>
-        </p>
-        <h1 class="text-2xl font-extrabold">Search Engine Optimization</h1>
-        <p class="text-gray-800 font-medium text-justify">
-          We ensure your website appears on the first pages of search engines
-          and increases qualified visitors. Keyword Analysis Content
-          Optimization Link Building
-        </p>
-        <div class="text-gray-600 font-medium flex flex-col gap-2">
-          <p class="flex gap-2 items-center">
-            <i class="fas fa-check text-green-700"></i>Keyword Analysis
+      <div class="flex flex-col md:flex-row gap-2 container m-auto min-h-screen justify-center">
+        <div
+          class="h-[100%] mt-10 w-full md:w-[30%] px-5 py-3 grid grid-rows-[20fr_20fr_35fr_25fr] gap-4 border border-separate rounded-lg hover:border-blue-400 group transition-all duration-300 border-1 shadow-black shadow-sm">
+          <p class="">
+            <i
+              class="fas fa-chart-line text-5xl leading-10 text-black p-4 rounded-lg w-15 inline-block bg-blue-200 group-hover:bg-blue-500"></i>
           </p>
-          <p class="flex gap-2 items-center">
-            <i class="fas fa-check text-green-700"></i>Content Optimization
+          <h1 class="text-2xl font-extrabold">Search Engine Optimization</h1>
+          <p class="text-gray-800 font-medium text-justify">
+            We ensure your website appears on the first pages of search engines
+            and increases qualified visitors. Keyword Analysis Content
+            Optimization Link Building
           </p>
-          <p class="flex gap-2 items-center">
-            <i class="fas fa-check text-green-700"></i>Link Building
+          <div class="text-gray-600 font-medium flex flex-col gap-2">
+            <p class="flex gap-2 items-center">
+              <i class="fas fa-check text-green-700"></i>Keyword Analysis
+            </p>
+            <p class="flex gap-2 items-center">
+              <i class="fas fa-check text-green-700"></i>Content Optimization
+            </p>
+            <p class="flex gap-2 items-center">
+              <i class="fas fa-check text-green-700"></i>Link Building
+            </p>
+          </div>
+        </div>
+        <div
+          class="h-[100%] mt-10 w-full md:w-[30%] px-5 py-3 grid grid-rows-[20fr_20fr_35fr_25fr] gap-4 border border-separate rounded-lg hover:border-purple-400 group transition-all duration-300 border-1 shadow-black shadow-sm">
+          <p class="">
+            <i
+              class="fa-brands fa-facebook text-5xl leading-10 text-black p-4 rounded-lg w-15 inline-block bg-purple-200 group-hover:bg-purple-500"></i>
           </p>
+          <h1 class="text-2xl font-extrabold">Social Media Marketing</h1>
+          <p class="text-gray-800 font-medium text-justify">
+            We manage your advertising campaigns on Facebook and Instagram with
+            high professionalism.
+          </p>
+          <div class="text-gray-600 font-medium flex flex-col gap-2">
+            <p class="flex gap-2 items-center">
+              <i class="fas fa-check text-green-700"></i>Precise Targeting
+            </p>
+            <p class="flex gap-2 items-center">
+              <i class="fas fa-check text-green-700"></i>Results Analysis
+            </p>
+            <p class="flex gap-2 items-center">
+              <i class="fas fa-check text-green-700"></i>Campaign Optimization
+            </p>
+          </div>
+        </div>
+        <div
+          class="h-[100%] mt-10 w-full md:w-[30%] px-5 py-3 grid grid-rows-[20fr_20fr_35fr_25fr] gap-4 border border-separate rounded-lg hover:border-green-400 group transition-all duration-300 border-1 shadow-black shadow-sm">
+          <p class="">
+            <i
+              class="fa-solid fa-code text-5xl leading-10 text-black p-4 rounded-lg w-15 inline-block bg-green-100 group-hover:bg-green-500"></i>
+          </p>
+          <h1 class="text-2xl font-extrabold">Website Design & Development</h1>
+          <p class="text-gray-800 font-medium text-justify">
+            We design professional websites that are compatible with all
+            devices.
+          </p>
+          <div class="text-gray-600 font-medium flex flex-col gap-2">
+            <p class="flex gap-2 items-center">
+              <i class="fas fa-check text-green-700"></i>Responsive Design
+            </p>
+            <p class="flex gap-2 items-center">
+              <i class="fas fa-check text-green-700"></i> High Speed
+            </p>
+            <p class="flex gap-2 items-center">
+              <i class="fas fa-check text-green-700"></i>Easy Management
+            </p>
+          </div>
         </div>
       </div>
-      <div
-        class="h-[100%] mt-10 w-full md:w-[30%] px-5 py-3 grid grid-rows-[20fr_20fr_35fr_25fr] gap-4 border border-separate rounded-lg hover:border-purple-400 group transition-all duration-300 border-1 shadow-black shadow-sm">
-        <p class="">
-          <i
-            class="fa-brands fa-facebook text-5xl leading-10 text-black p-4 rounded-lg w-15 inline-block bg-purple-200 group-hover:bg-purple-500"></i>
-        </p>
-        <h1 class="text-2xl font-extrabold">Social Media Marketing</h1>
-        <p class="text-gray-800 font-medium text-justify">
-          We manage your advertising campaigns on Facebook and Instagram with
-          high professionalism.
-        </p>
-        <div class="text-gray-600 font-medium flex flex-col gap-2">
-          <p class="flex gap-2 items-center">
-            <i class="fas fa-check text-green-700"></i>Precise Targeting
-          </p>
-          <p class="flex gap-2 items-center">
-            <i class="fas fa-check text-green-700"></i>Results Analysis
-          </p>
-          <p class="flex gap-2 items-center">
-            <i class="fas fa-check text-green-700"></i>Campaign Optimization
-          </p>
-        </div>
-      </div>
-      <div
-        class="h-[100%] mt-10 w-full md:w-[30%] px-5 py-3 grid grid-rows-[20fr_20fr_35fr_25fr] gap-4 border border-separate rounded-lg hover:border-green-400 group transition-all duration-300 border-1 shadow-black shadow-sm">
-        <p class="">
-          <i
-            class="fa-solid fa-code text-5xl leading-10 text-black p-4 rounded-lg w-15 inline-block bg-green-100 group-hover:bg-green-500"></i>
-        </p>
-        <h1 class="text-2xl font-extrabold">Website Design & Development</h1>
-        <p class="text-gray-800 font-medium text-justify">
-          We design professional websites that are compatible with all
-          devices.
-        </p>
-        <div class="text-gray-600 font-medium flex flex-col gap-2">
-          <p class="flex gap-2 items-center">
-            <i class="fas fa-check text-green-700"></i>Responsive Design
-          </p>
-          <p class="flex gap-2 items-center">
-            <i class="fas fa-check text-green-700"></i> High Speed
-          </p>
-          <p class="flex gap-2 items-center">
-            <i class="fas fa-check text-green-700"></i>Easy Management
-          </p>
-        </div>
-      </div>
-    </div>
     </div>
   </section>
   <!--  End Second Section -->
   <!-- Third section -->
   <div class="h-64 mb-9 grid grid-cols-2  md:grid-cols-4 lg:grid-cols-4 bg-gradient-to-r from-blue-700 to-purple-400">
-    <div class="p-xl-2 flex flex-col justify-center items-center text-white text-2xl font-medium md:text-5xl md:font-semibold">
+    <div
+      class="p-xl-2 flex flex-col justify-center items-center text-white text-2xl font-medium md:text-5xl md:font-semibold">
       <p class="font-bold text-center p-2">+500</p>
       <p class="text-lg md:text-xl text-center p-2">Clients Worldwide</p>
     </div>
 
-    <div class="p-xl-2 flex flex-col justify-center items-center text-white text-2xl font-medium md:text-5xl md:font-semibold">
+    <div
+      class="p-xl-2 flex flex-col justify-center items-center text-white text-2xl font-medium md:text-5xl md:font-semibold">
       <p class="font-bold text-center p-2">+1000</p>
       <p class="text-lg md:text-xl text-center p-2">Projects Completed</p>
     </div>
 
-    <div class="p-xl-2 flex flex-col justify-center items-center text-white text-2xl font-medium md:text-5xl md:font-semibold">
+    <div
+      class="p-xl-2 flex flex-col justify-center items-center text-white text-2xl font-medium md:text-5xl md:font-semibold">
       <p class="font-bold text-center p-2">+50</p>
       <p class="text-lg md:text-xl text-center p-2">Marketing Experts</p>
     </div>
 
-    <div class="p-xl-2 flex flex-col justify-center items-center text-white text-2xl font-medium md:text-5xl md:font-semibold">
+    <div
+      class="p-xl-2 flex flex-col justify-center items-center text-white text-2xl font-medium md:text-5xl md:font-semibold">
       <p class="font-bold text-center p-2">+10</p>
       <p class="text-lg md:text-xl text-center p-2">Years of Experience</p>
     </div>
   </div>
   <!-- End Third section -->
   <!-- 4th section -->
-  <div class="flex space-x-5 h-[85vh] bg-slate-900 items-start">
-    <div class="relative group h-[75%] w-1/5 bg-slate-400 mb-32 flex justify-center rounded-t-lg overflow-hidden items-start hidden hover:block">
-      
-      <div class="absolute w-[100%] bg-red-400 h-[70%] flex gap-3  justify-center items-center">
-        <i class="fa-brands fa-facebook-f size-7 bg-white flex justify-center items-center rounded-full  text-lg"></i>
-        <i class="fa-brands fa-twitter size-7 bg-white flex justify-center items-center rounded-full  text-lg"></i>
-        <i class="fa-brands fa-linkedin-in size-7 bg-white flex justify-center items-center rounded-full  text-lg"></i>
-      </div>
-      <div class="absolute w-[100%] bg-blue-500 h-[70%] flex gap-3  justify-center items-center">
-        <i class="fa-brands fa-facebook-f size-7 bg-white flex justify-center items-center rounded-full  text-lg"></i>
-        <i class="fa-brands fa-twitter size-7 bg-white flex justify-center items-center rounded-full  text-lg"></i>
-        <i class="fa-brands fa-linkedin-in size-7 bg-white flex justify-center items-center rounded-full  text-lg"></i>
-      </div>
-      
-    </div>
-   
-  </div>
+<div class="flex justify-around">
+  <div class="flex items-center justify-center h-75">
   
+    <div class="w-72 rounded-2xl shadow-xl overflow-hidden">
+  
+  
+      <div class="relative group h-48 bg-gradient-to-br from-green-400 to-blue-400 flex items-center justify-center">
+  
+        <i class="fa-solid fa-user text-4xl bg-white text-blue-900 p-5 rounded-full leading-none"></i>
+  
+  
+        <div class="absolute inset-0 bg-green-400 opacity-0 group-hover:opacity-80 transition duration-300 flex items-center justify-center">
+  
+          <div class="flex gap-3">
+            <i class="fa-brands fa-facebook-f w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-blue-500 hover:text-white transition"></i>
+            <i class="fa-brands fa-twitter w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-sky-400 hover:text-white transition"></i>
+            <i class="fa-brands fa-linkedin-in w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-blue-700 hover:text-white transition"></i>
+          </div>
+  
+        </div>
+      </div>
+  
+  
+      <div class="text-center p-5 space-y-2">
+        <h1 class="text-xl font-semibold">Ahmed Mohamed</h1>
+        <p class="text-gray-900 text-lg">Marketing Director</p>
+        <p class="text-sm text-gray-700">Expert in web development</p>
+      </div>
+  
+    </div>
+  
+  </div>
+  <div class="flex items-center justify-center min-h-screen">
+  
+    <div class="w-72  rounded-2xl shadow-xl overflow-hidden">
+  
+  
+      <div class="relative group h-48 bg-gradient-to-br from-purple-800 to-purple-400 flex items-center justify-center">
+  
+        <i class="fa-solid fa-user text-4xl bg-white text-blue-900 p-5 rounded-full leading-none"></i>
+  
+  
+        <div class="absolute inset-0 bg-purple-400 opacity-0 group-hover:opacity-80 transition duration-300 flex items-center justify-center">
+  
+          <div class="flex gap-3">
+            <i class="fa-brands fa-facebook-f w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-blue-500 hover:text-white transition"></i>
+            <i class="fa-brands fa-twitter w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-sky-400 hover:text-white transition"></i>
+            <i class="fa-brands fa-linkedin-in w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-blue-700 hover:text-white transition"></i>
+          </div>
+  
+        </div>
+      </div>
+  
+  
+      <div class="text-center p-5 space-y-2">
+        <h1 class="text-xl font-semibold">Sara Ahmed</h1>
+        <p class="text-purple-500 text-lg">SEO Specialist</p>
+        <p class="text-sm text-gray-700">Specialized in search engine optimization</p>
+      </div>
+  
+    </div>
+  
+  </div>
+  <div class="flex items-center justify-center min-h-screen p-x-20">
+  
+    <div class="w-72 bg-white rounded-2xl shadow-xl overflow-hidden">
+  
+  
+      <div class="relative group h-48 bg-gradient-to-br from-amber-500 to-amber-200 flex items-center justify-center">
+  
+        <i class="fa-solid fa-user text-4xl bg-white text-blue-900 p-5 rounded-full leading-none"></i>
+  
+  
+        <div class="absolute inset-0 bg-amber-400 opacity-0 group-hover:opacity-80 transition duration-300 flex items-center justify-center">
+  
+          <div class="flex gap-3">
+            <i class="fa-brands fa-facebook-f w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-blue-500 hover:text-white transition"></i>
+            <i class="fa-brands fa-twitter w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-sky-400 hover:text-white transition"></i>
+            <i class="fa-brands fa-linkedin-in w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-blue-700 hover:text-white transition"></i>
+          </div>
+  
+        </div>
+      </div>
+  
+  
+      <div class="text-center p-5 space-y-2">
+        <h1 class="text-xl font-semibold">Noura Khaled</h1>
+        <p class="text-amber-500 text-lg">Graphic Designer</p>
+        <p class="text-sm text-gray-700">Specialized in visual identity design</p>
+      </div>
+  
+    </div>
+  
+  </div>
+  <div class="flex items-center justify-center min-h-screen">
+  
+    <div class="w-72 bg-white rounded-2xl shadow-xl overflow-hidden">
+  
+  
+      <div class="relative group h-48 bg-gradient-to-br from-green-400 to-blue-400 flex items-center justify-center">
+  
+        <i class="fa-solid fa-user text-4xl bg-white text-blue-900 p-5 rounded-full leading-none"></i>
+  
+  
+        <div class="absolute inset-0 bg-green-400 opacity-0 group-hover:opacity-80 transition duration-300 flex items-center justify-center">
+  
+          <div class="flex gap-3">
+            <i class="fa-brands fa-facebook-f w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-blue-500 hover:text-white transition"></i>
+            <i class="fa-brands fa-twitter w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-sky-400 hover:text-white transition"></i>
+            <i class="fa-brands fa-linkedin-in w-9 h-9 flex items-center justify-center bg-white rounded-full hover:bg-blue-700 hover:text-white transition"></i>
+          </div>
+  
+        </div>
+      </div>
+  
+  
+      <div class="text-center p-5 space-y-2">
+        <h1 class="text-xl font-semibold">Mohamed Ali</h1>
+        <p class="text-green-800 text-lg">Web Developer</p>
+        <p class="text-sm text-gray-700">Expert in web development</p>
+      </div>
+  
+    </div>
+  
+  </div>
+</div>
   <!-- End 4th section -->
 
+ 
+  <!-- --------------Footer------------------- -->
+  <footer class="bg-gray-900 text-white">
+    <div class="max-w-7xl mx-auto px-5 py-10 grid md:grid-cols-2 gap-7">
 
+      <!-- Left side -->
+      <div>
+        <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+
+        <form class="flex flex-col gap-4">
+          <input type="text" placeholder="Full Name"
+            class="p-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500" />
+
+          <input type="email" placeholder="Email Address"
+            class="p-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500" />
+
+          <textarea rows="4" placeholder="Your Message"
+            class="p-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:border-blue-500 resize-none"></textarea>
+
+          <button type="submit" class="bg-blue-500 hover:bg-blue-600 transition p-3 rounded-lg font-semibold">
+            Send Message
+          </button>
+        </form>
+      </div>
+
+      <!-- Right side -->
+      <div>
+        <h2 class="text-2xl font-bold mb-4">Contact Info</h2>
+
+        <div class="flex flex-col gap-4 text-gray-300">
+
+          <div class="flex items-center gap-3">
+            <i class="fas fa-phone text-blue-400 text-2xl bg-blue-600 px-2 py-1 rounded-lg"></i>
+            <span>+20 10 555 666</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <i class="fas fa-map-marker-alt text-blue-400 text-2xl bg-blue-600 px-3 py-1 rounded-lg"></i>
+            <span>Cairo, Egypt</span>
+          </div>
+
+          <div class="flex items-center gap-3">
+            <i class="fas fa-envelope text-blue-400 text-2xl bg-blue-600 px-2 py-1 rounded-lg"></i>
+            <span>contact@digitalpro.com</span>
+          </div>
+          <div
+            class="w-[70%] h-[150px] bg-gradient-to-bl from-purple-900 to-purple-500 via-purple-600 flex items-center justify-center  rounded-xl">
+            <h1 class="flex justify-center items-center gap-5"><i class="fa-solid fa-map ml-2 block text-5xl"></i><span
+                class="text-xl font bold">Site map</span></h1>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="py-4 ml-10 border-t border-gray-700 text-sm">
+      © 2026 DigitalPro. All rights reserved.
+    </div>
+  </footer>
 
 
 </body>
